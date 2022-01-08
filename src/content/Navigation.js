@@ -1,53 +1,76 @@
 /* eslint-disable max-len */
 export const nav = {
-  title: 'Navigation',
+  title: "Navigation",
   logo: {
-    src: 'https://res.cloudinary.com/sambitsankalp/image/upload/v1641587591/hackathons/logo_xhuv2x.png',
-    alt: 'Moms Help',
+    src: "https://res.cloudinary.com/sambitsankalp/image/upload/v1641587591/hackathons/logo_xhuv2x.png",
+    alt: "Moms Help",
   },
   navItems: [
     {
-      name: 'Home',
-      link: '/',
+      name: "Home",
+      link: "/",
     },
     {
-      name: 'Community',
-      link: '/community',
+      name: "Community",
+      link: "/community",
     },
     {
-      name: 'Blogs',
-      link: '/blogs',
+      name: "Blogs",
+      link: "/blogs",
     },
     {
-      name: 'Issues',
-      link: '/issues',
+      name: "Issues",
+      link: "/issues",
     },
     {
-      name: 'Portal',
-      link: '/portal',
+      name: "Portal",
+      link: "/portal",
     },
   ],
 };
 
 export const issues = [
   {
-    name: 'Jobs',
-    link: '/issues/jobs',
+    name: "Jobs",
+    link: "/issues/jobs",
   },
   {
-    name: 'Financial',
-    link: '/issues/financial',
+    name: "Financial",
+    link: "/issues/financial",
   },
   {
-    name: 'Get Counseled',
-    link: '/issues/counselling',
+    name: "Get Counseled",
+    link: "/issues/counselling",
   },
   {
-    name: 'Marriage',
-    link: '/issues/marriage',
+    name: "Marriage",
+    link: "/issues/marriage",
   },
   {
-    name: 'Helpline',
-    link: '/issues/helpline',
+    name: "Helpline",
+    link: "/issues/helpline",
+  },
+];
+
+export const blogs = [
+  {
+    name: "Work",
+    link: "/Work",
+  },
+  {
+    name: "Responsibility",
+    link: "/Responsibility",
+  },
+  {
+    name: "Emotions",
+    link: "/Emotions",
+  },
+  {
+    name: "Financials",
+    link: "/Financials",
+  },
+  {
+    name: "Time ",
+    link: "/Time ",
   },
 ];
