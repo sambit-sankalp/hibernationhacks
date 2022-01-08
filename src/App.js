@@ -7,16 +7,20 @@ import Carousel from "./components/carousel/carousel";
 import { blogs } from "./content/Navigation";
 import Blogs from "./pages/blogs/Blogs";
 import datas from "./components/cards/data";
+import Maps from "./components/maps/Maps";
+import Communities from "./pages/communities/Communities";
 function App() {
   return (
     <Router>
       <Navbar />
-
+      {/* <Maps /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         {datas.map((data) => (
           <Route path={data.link} element={<Blogs data={data} />} />
         ))}
+
+        <Route path="/community" element={<Communities />} />
       </Routes>
     </Router>
   );

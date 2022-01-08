@@ -1,5 +1,5 @@
-import styled, { keyframes } from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled, { keyframes } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   width: 100%;
@@ -48,14 +48,14 @@ const fadeDown = keyframes`
 
 export const NavContainer = styled.div`
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff5f9;
   z-index: 999;
-  box-shadow: ${({ shadow }) => (shadow ? '0px 3px 15px #080808' : '')};
+  box-shadow: ${({ shadow }) => (shadow ? "0px 3px 15px #080808" : "")};
   .bars {
     color: #ef629f;
     @media all and (min-width: 769px) {
