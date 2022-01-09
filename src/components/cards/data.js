@@ -41,7 +41,7 @@ export default [
       "Most single mothers are utterly sick of the motherhood and guilt rhetoric —especially working single mothers. They often feel like they’re forever coming up short when it comes to doing enough for their kids. Not to mention their boss and extended family, and yes, of course, their community. As single mothers, they have to do all of these things alone, and it’s not always easy.",
     suggestions:
       "Accept that parenting isn’t a competition and there is no right or wrong way to parenTLimit your social media usage.Learn to live in the moment.Spend quality time with your kidsTake time for yourself.Connect with like-minded moms.",
-    img: "https://res.cloudinary.com/dfftvyqha/image/upload/v1632465012/5870-removebg-preview_fvszwn.png",
+    img: "https://res.cloudinary.com/dfftvyqha/image/upload/v1641731979/515319-PIRK7R-406_opubhu.jpg",
   },
   {
     id: 5,
@@ -52,6 +52,6 @@ export default [
       "Most single mothers are utterly sick of the motherhood and guilt rhetoric —especially working single mothers. They often feel like they’re forever coming up short when it comes to doing enough for their kids. Not to mention their boss and extended family, and yes, of course, their community. As single mothers, they have to do all of these things alone, and it’s not always easy.",
     suggestions:
       "Accept that parenting isn’t a competition and there is no right or wrong way to parenTLimit your social media usage.Learn to live in the moment.Spend quality time with your kidsTake time for yourself.Connect with like-minded moms.",
-    img: "https://res.cloudinary.com/dfftvyqha/image/upload/v1632465012/5870-removebg-preview_fvszwn.png",
+    img: "https://res.cloudinary.com/dfftvyqha/image/upload/v1641732130/3235815_whgny5.jpg",
   },
 ];

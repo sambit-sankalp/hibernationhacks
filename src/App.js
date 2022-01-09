@@ -9,6 +9,8 @@ import Blogs from "./pages/blogs/Blogs";
 import datas from "./components/cards/data";
 import Maps from "./components/maps/Maps";
 import Communities from "./pages/communities/Communities";
+import { BasicTable } from "./components/portal/BasicTable";
+
 import Counsel from "./pages/counselling/counsel";
 import Helpline from "./pages/helpline/helpline";
 import Coming from "./components/coming/coming";
@@ -25,6 +27,7 @@ function App() {
         ))}
         {/* <Route exact path="/blogs" element={<Callblogs />} /> */}
 
+        <Route path="/portal" element={<BasicTable />} />
         <Route exact path="/community" element={<Communities />} />
 
         <Route exact path="/issues/counselling" element={<Counsel />} />
