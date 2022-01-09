@@ -1,5 +1,4 @@
 import React from "react";
-import { Route } from "react-router-dom";
 import styled from "styled-components";
 const Blogs = ({ data }) => {
   const { heading, intro, content, suggestions } = data;

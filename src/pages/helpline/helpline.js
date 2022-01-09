@@ -17,7 +17,6 @@ const Helpline = () => {
       setLoading(false);
     }, 2000);
   }, []);
-  const handleClick = () => {};
   return (
     <div>
       <Container>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
   { id: 1, Topic: "Responsibilties", Date: "29-10-2021", Author: "Ananya" },
   { id: 1, Topic: "Financial issues", Date: "02-01-2022", Author: "Arpita" },

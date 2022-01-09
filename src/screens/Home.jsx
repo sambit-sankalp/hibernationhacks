@@ -3,10 +3,9 @@ import Carousel from "../components/carousel/carousel";
 import Card from "../components/cards/Card";
 import styled from "styled-components";
 import data from "../components/cards/data";
-import Blogs from "../pages/blogs/Blogs";
 import { useState } from "react";
 const Home = () => {
-  const [blogs, setBlogs] = useState(data);
+  const [blogs] = useState(data);
   return (
     <>
       <div>
