@@ -7,6 +7,7 @@ const Card = ({ data }) => {
       <Link to={data.link} style={{ textDecoration: "none" }}>
         <SingleCard>
           <h1>{data.heading}</h1>
+          <img src={data.img} alt="" />
         </SingleCard>
       </Link>
     </>

@@ -9,6 +9,8 @@ import Blogs from "./pages/blogs/Blogs";
 import datas from "./components/cards/data";
 import Maps from "./components/maps/Maps";
 import Communities from "./pages/communities/Communities";
+import { BasicTable } from "./components/portal/BasicTable";
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
         ))}
 
         <Route path="/community" element={<Communities />} />
+        <Route path="/portal" element={<BasicTable />} />
       </Routes>
     </Router>
   );
