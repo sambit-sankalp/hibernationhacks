@@ -3,7 +3,7 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import parkDate from "./data";
 import styled from "styled-components";
 export default function App() {
-  console.log(parkDate);
+  // console.log(parkDate);
   const [viewport, setViewport] = useState({
     latitude: 45.4211,
     longitude: -75.6903,
