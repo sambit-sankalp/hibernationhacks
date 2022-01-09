@@ -4,23 +4,24 @@ function App() {
   const data = [
     {
       image:
-        "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729633/Slide1_cqbkmc.png",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729771/Slide2_ujcrp5.png",
-    },
-    {
-      image:
         "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729771/Slide3_jnr7z3.png",
     },
     {
       image:
         "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729912/Component_1_vtzkvh.png",
     },
+
     {
       image:
         "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729770/Slide5_j7zct5.png",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729633/Slide1_cqbkmc.png",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfftvyqha/image/upload/v1641729771/Slide2_ujcrp5.png",
     },
   ];
 
